@@ -1,0 +1,272 @@
+
+
+
+/* Extra small device */
+
+
+@media screen and (max-width:576px) {
+    
+
+/* Strat navbar section */
+
+    .navbar{
+        display: grid;
+        justify-content: start;
+       
+    }
+    .navul{
+        padding: 5px 20px;
+    }
+
+    .logo{
+        padding: 2px 30px;
+    }
+
+
+    .navButton{
+        display: none;
+    }
+
+    /* hero section */
+
+    .hero{
+        
+        width: 100%;
+        height: 50vh;
+        
+    }
+
+    .offerSection{
+            width: 300px;
+            text-align: center;
+            position: absolute;
+            top: 35%;
+            padding: 0px 60px;
+            
+    
+    }
+
+    .option1{
+        width: 90px;
+    }
+
+
+
+.heading h1{
+    
+    font-size: 25px;
+    
+}
+.options select{
+   
+    
+    padding-right: 2px;
+    font-size: 15px;
+    
+
+}
+
+.offB1,.offB2 {
+    
+       font-size: 15px;
+}
+
+
+
+
+.offB1{
+    
+    padding:0px 114px;
+    
+    
+}
+
+.offB2{
+    
+   padding: 0px 48px;
+    
+}
+
+.hero_down{
+    display: none;
+}
+
+/* Fees section */
+
+.feeshead h1{
+    text-align: left;
+    padding: 30px 5px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.brandIcon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0px;
+   
+    
+}
+
+.brandIcon img{
+    width: 68px;
+    height: 68px;
+}
+
+
+/* Start Features section */
+.features_heading h1{
+    
+    font-size: 25px;
+    padding: 0px 35px;
+}
+
+.card_aria{
+    
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 0px 80px;
+}
+
+.borderImg img{
+    display: none;
+}
+
+.fButton{
+    text-align: left;
+    padding: 0px 120px;
+    
+   
+  & a{
+    
+    padding: 10px 15px;
+    font-size: 18px;
+    
+  }
+
+}
+/* Buy sell section */
+
+
+.rows{
+    
+    flex-direction: column;
+    justify-content: start;
+
+}
+
+
+
+.colA{
+    width: 35%;
+    border: none;
+    
+}
+
+.colB{
+    width: 35%;
+    
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    background-color: #fff;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    width: 95%;
+    padding: 5px;
+    margin: 10px 20px;
+}
+.cards img{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+
+/* Start Text section */
+
+.textSection{
+    background: #CFBAFF;
+    padding: 70px 0;
+
+}
+.texts{
+    text-align: start;
+    margin-top: 30px;
+    
+}
+
+.texts > h1{
+    font-size: 20px;
+    padding: 10px 30px;
+    line-height: 1.3rem;
+   
+}
+
+.text_buttons{
+    margin: 40px 30px;
+}
+
+.text_buttons a{
+    
+     font-size: 20px;
+    
+     padding: 10px 25px;
+     
+}
+
+
+/* End Text section */
+
+
+
+
+
+/* start footer section */
+.footer_top{
+    padding: 60px;
+    background-color: #000000;
+    border-bottom: 1px solid #fff;
+}
+
+.col_foot{
+    width: 100%;
+    
+}
+
+.footContent{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 40px;
+    padding: 5px 80px;
+}
+
+/* start footer section */
+
+
+
+
+
+
+
+
+}
+
+
+
+
+/* small device */
+/* small device */
+
+
+
+

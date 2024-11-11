@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+.body{
+    
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+}
+
+h1,h2,h3,h4,h5,h6,p,a{
+    font-family: "Inter", sans-serif;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+
+/* start navbar section */
+
+.header_aria{
+    padding: 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    background-color: #fff; 
+   
+}
+
+.navul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+.navul li{
+    list-style-type: none;
+    float: left;
+    padding:0 10px;
+}
+
+.icon img{
+    width: 30px;
+    height: 30px;
+    
+
+}
+
+.navButton{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.loginA{
+
+    text-decoration: none;
+    background-color: #F1F1F1;
+     padding: 15px 30px;
+     border-radius: 15px;
+     color: black;
+     margin-right: 10px;
+     font-size: 22px;
+    
+
+
+}
+.loginB{
+    text-decoration: none;
+    background-color: black;
+     padding: 15px 30px;
+     border-radius: 15px;
+     color: white;
+     margin-left: 10px;
+}
+
+
+/* Start Hero section */
+
+.hero{
+    background-image: url("./img/Rectangle\ 1.png");
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    
+}
+
+
+.offerSection{
+    width: 900px;
+    background-color: #F1F1F1;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.heading h1{
+    padding: 44px 0;
+    font-size: 45px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.options select{
+   
+    border-style: none;
+    background-color: transparent;
+    padding-right: 30px;
+    font-size: 22px;
+    
+
+}
+.option1{
+  
+    padding: 10px 20px;
+    text-align: left;
+    border-radius: 5px;
+    background: #ECECEC;
+
+    
+}
+.offB1,.offB2 {
+    text-decoration: none;
+       color: #000000;
+       font-size: 22px;
+}
+
+.offB1{
+    background-color: #ECECEC;
+    padding: 10px 213px;
+    border-radius: 10px;
+}
+
+.offB2{
+    background: #00EBC7;
+    padding: 10px 47px;
+    border-radius: 15px;
+}
+
+.offerButton{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.hero_down{
+    position: absolute;
+    left: 50%;
+    bottom: 8%;
+    transform: translate(-50%,-8%);
+    padding: 10px;
+    border: 1.5px solid #fff;
+    border-radius: 18px;
+   
+}
+
+.hero_down a{
+
+ font-size: 22px;
+ color: #fff;
+ text-decoration: none;
+
+ border-bottom: 1.5px solid #fff;
+ 
+ 
+ 
+
+}
+
+/* Start fess section */
+.fees{
+
+    background: #FDE24F;
+   
+}
+
+.feeshead h1{
+    text-align: center;
+    padding: 80px 0;
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.brandIcon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 50px;
+}
+.brandIcon img{
+    width: 120px;
+    height: 120px;
+}
+
+/* Start Features section */
+.features_heading h1{
+    
+    font-size: 34px;
+}
+.features_heading{
+    padding: 60px 0;
+}
+
+.card_aria{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.card{
+    text-align: center;
+}
+
+.card img{
+    width: 80px;
+    height: 80px;
+}
+
+.card h3{
+    font-size: 24px;
+    padding: 10px 0;
+}
+.card p{
+    font-size: 20px;
+}
+
+.card_button a{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    
+}
+.card_button{
+    padding: 20px 0;
+}
+
+
+.borderImg img{
+    width: 120px;
+    height: 2px;
+    position: absolute;
+    top: 42%;
+    left: 25%;
+}
+
+.borderright img{
+    width: 120px;
+    height: 2px;
+    position: absolute;
+    top: 42%;
+    right: 25%;
+}
+
+.fButton{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px 0;
+  & a{
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1.5px solid black;
+    border-radius: 15px;
+    color: #000000;
+    font-size: 22px;
+    
+  }
+}
+/* End Features section */
+
+
+/* Start Buy sell section */
+
+.rows{
+    width: 100%;
+    display: flex;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    background: #F8F8F8;
+
+}
+
+.colA{
+    width: 50%;
+    
+    border-right: 1.5px solid black;
+}
+
+.colB{
+    width: 50%;
+    
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    background-color: #fff;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    width: 95%;
+    padding: 5px;
+    margin: 10px 20px;
+}
+.cards img{
+    width: 70px;
+    height: 70px;
+}
+
+.cards h6{
+    font-size: 17px;
+    color: #000000;
+    font-weight: 500;
+}
+.colA{
+    display: grid;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.colB{
+    display: grid;
+    justify-content: center;
+    padding: 50px 0;
+}
+.buySell{
+    padding: 80px 0;
+}
+
+.colA h3{
+        margin: 20px 8px;
+        font-size: 30px;
+}
+.colB h3{
+    margin: 20px 8px;
+    font-size: 30px;
+}
+
+.buysellButton{
+    text-align: center;
+    margin-top: 30px;
+}
+.buysellButton a{
+     text-decoration: none;
+     font-size: 20px;
+     color: #fff;
+     background-color: #000000;
+     padding: 10px 15px;
+     border-radius: 20px;
+     
+}
+
+/* Start Text section */
+
+.textSection{
+    background: #CFBAFF;
+    padding: 140px 0;
+
+}
+
+.texts{
+    text-align: center;
+    
+}
+.texts > h1{
+    font-size: 70px;
+    padding: 20px;
+    line-height: 3.9rem;
+}
+
+.text_buttons{
+    margin-top: 40px;
+}
+
+.text_buttons a{
+    text-decoration: none;
+     font-size: 20px;
+     color: #fff;
+     background-color: #000000;
+     padding: 10px 30px;
+     border-radius: 20px;
+}
+
+/* Start footer top section */
+.footer_top{
+    padding: 60px;
+    background-color: #000000;
+    border-bottom: 1px solid #fff;
+}
+
+.col_foot{
+    width: 20%;
+    
+}
+
+.footContent{
+    display: flex;
+    justify-content: start;
+}
+
+.col_foot img{
+    width: 120px;
+   height: 20px;
+}
+.col_foot h3{
+    font-size: 25px;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.col_foot ul > li{
+    list-style-type: none;
+    padding: 5px 0;
+}
+.col_foot ul li > a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    
+}
+
+/* start footer section */
+
+.footerSection{
+    background-color: #000000;
+}
+.ftextss{
+    padding: 20px 0;
+    color: #fff;
+    font-size: 15px;
+   
+}
